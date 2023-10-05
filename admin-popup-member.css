@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    color: white;
+
+    min-height: 931px;
+    /* height: 900px; */
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
