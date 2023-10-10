@@ -49,8 +49,6 @@ main{
     flex-basis: 80%;
 
     display: flex;
-
-
 }
 
 
@@ -150,7 +148,7 @@ fieldset{
 }
 
 .menu-info-container::-webkit-scrollbar{
-    background: #101322;
+    background:rgb(71, 54, 146);
 }
 
 .menu-info-container::-webkit-scrollbar-thumb{
@@ -211,7 +209,7 @@ tr >td:not(:nth-of-type(1)){
     padding: 7px 2px;
 
     font-weight: bold;
-    background-color: rebeccapurple;
+    background-color: rgb(56, 77, 172);
     color: white;
     border-radius: 10px;
     border: 2px solid black;

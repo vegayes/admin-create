@@ -91,7 +91,7 @@ main{
     /* margin-left: auto; */
 }
 
-.event-container-title > i {
+.event-container-title > a {
     /* border: 2px solid yellow; */
     /* margin-left: auto; */
     /* margin-right: 55px; */
@@ -119,7 +119,7 @@ main{
 }
 
 .event-info-container::-webkit-scrollbar{
-    background: rgb(166, 197, 221);
+    background:  rgb(35, 44, 126);
 }
 
 .event-info-container::-webkit-scrollbar-thumb{
