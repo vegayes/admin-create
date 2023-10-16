@@ -60,10 +60,13 @@ main{
 table{
     flex-basis: 100%;
     border-spacing: 0;
-    background-color: red;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 
     /* padding: 20px 0px; */
 }
+
 
 td{
     text-align: center;
@@ -71,12 +74,13 @@ td{
 }
 
 .popup-member-write-list-table  td{
-    padding: 50px;;
+    padding: 20px;
+    border: 2px solid rgb(43, 26, 6);
 }
 
 
 .popup-member-write-list-table thead{
-    background-color: orange;
+    background-color:plum;
     position: sticky;
     top: 0;
 }
@@ -89,7 +93,7 @@ td{
 
 
 .popup-member-comment-no{
-    flex-basis: 12%;
+    flex-basis: 10%;
 
     /* background-color: rebeccapurple; */
     
@@ -99,7 +103,7 @@ td{
 }
 
 .popup-member-comment-content{
-    flex-basis: 43%;
+    flex-basis: 50%;
 
     display: flex;  
     justify-content: center;
@@ -107,11 +111,11 @@ td{
 } 
 
 .popup-member-comment-date{
-    flex-basis: 30%;
+    flex-basis: 29%;
 }
 
 .popup-member-comment-del-YN{
-    flex-basis: 15%;
+    flex-basis: 14%;
 }
 
 
@@ -129,7 +133,7 @@ td{
 
 .popup-member-write-list-container::-webkit-scrollbar-thumb{
     height: 15%;
-    background-color:orange;
+    background-color: plum;
     border-radius: 10px;
 }
 

@@ -9,3 +9,19 @@ for(let i = 0; i <eventUpdate.length; i++){
 
     });
 }
+
+
+// 2) 특별관 추가 버튼 누르면
+document.getElementById("special-add").addEventListener("click", function(){
+    window.open("http://192.168.50.200:5501/my-page-popup-favorite.html",
+    "특별관 추가",
+    "width=900, height=570, top=200, left=540");
+});
+
+
+// 3) 이벤트 추가 버튼 누르면
+document.getElementById("event-add").addEventListener("click", function(){
+    window.open("http://192.168.50.200:5501/my-page-popup-favorite.html",
+    "특별관 추가",
+    "width=900, height=570, top=200, left=540");
+});

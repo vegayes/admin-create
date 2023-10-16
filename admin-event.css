@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+
+    list-style-type: none;
+    text-decoration: none;
     
 }
 
@@ -13,8 +16,43 @@ body{
     display: flex;
 }
 nav{
-    flex-basis: 11%;
-    background-color: red;
+    flex-basis: 10%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+
+.admin-menu {
+
+    /* display: flex; */
+
+    background-color: #ffffff;
+ 
+    padding : 50px 0px;
+}
+
+
+.admin-list :hover {
+   font-size: 25px;
+}
+
+
+.admin-menu li {
+
+    padding: 40px 0px;  
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.admin-menu a {
+
+    color: rgb(0, 0, 0);
+    display: block;
 }
 main{
 
@@ -177,14 +215,20 @@ tr >td:not(:nth-of-type(1)){
 
     flex-basis: 15%;
 
+    display: flex;
+    justify-content: center;
+
+
 }
 
 .event-update >div,
 .event-del > div{
-    padding: 7px 20px;
+    padding: 7px 2px;
+    width: 60px;
 
+    text-align: center;
     font-weight: bold;
-    background-color: rebeccapurple;
+    background-color: rgb(56, 77, 172);
     color: white;
     border-radius: 10px;
     border: 2px solid black;

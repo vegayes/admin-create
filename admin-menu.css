@@ -2,15 +2,55 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 body{
     display: flex;
 }
+
 nav{
     flex-basis: 10%;
-    background-color: red;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
 }
+
+
+.admin-menu {
+
+    /* display: flex; */
+
+    background-color: #ffffff;
+ 
+    padding : 50px 0px;
+}
+
+
+.admin-list :hover {
+   font-size: 25px;
+}
+
+
+.admin-menu li {
+
+    padding: 40px 0px;  
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.admin-menu a {
+
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+
 main{
 
     flex-basis: 90%;
@@ -190,24 +230,30 @@ tr > td{
 }
 
 
-tr >td:nth-of-type(1){
+.menu-title{
+    flex-basis: 40%;
 
-    flex-basis: 70%;
-   
 }
 
-tr >td:not(:nth-of-type(1)){
+.menu-price{
+    flex-basis: 30%;
+}
+
+
+.menu-update,
+.menu-del{
 
     flex-basis: 15%;
 
-    /* border: 2px solid black; */
 }
 
 
 .menu-update >div,
 .menu-del > div{
     padding: 7px 2px;
+    width: 60px;
 
+    text-align: center;
     font-weight: bold;
     background-color: rgb(56, 77, 172);
     color: white;
